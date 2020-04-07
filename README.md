@@ -17,7 +17,7 @@ npm run serve
 
 ![vue14](https://user-images.githubusercontent.com/33843231/78323073-85e0d200-7592-11ea-83c0-039eb3542358.png)
 
-```
+```vue
 <template>
   <div class="flex flex-col items-center">
     <div class="absolute inset-0 z-0" @click="modal = false"></div>
@@ -89,7 +89,7 @@ export default {
 ![vue15](https://user-images.githubusercontent.com/33843231/78323075-8711ff00-7592-11ea-8671-ac8f30194ff1.png)
 
 
-```
+```vue
 <template>
     <div class="flex justify-center">
         <div class="w-1/2 bg-blue-900 rounded-lg shadow px-6 py-12 flex flex-col items-center">
@@ -187,13 +187,14 @@ export default {
 <style>
 
 </style>
+
 ```
 
 ## Format Form
 
 ![vue16](https://user-images.githubusercontent.com/33843231/78323076-88432c00-7592-11ea-89a0-c16a77e5088e.png)
 
-```
+```vue
 <template>
     <div>
         <Telephone template="(XXX) XXX-XXXX" />
@@ -210,7 +211,7 @@ export default {
 </script>
 ```
 
-```
+```vue
 <template>
     <div class="mt-6">
         <input type="text" :placeholder="template"
@@ -263,7 +264,7 @@ export default {
 ![autologout](https://user-images.githubusercontent.com/33843231/78323070-82e5e180-7592-11ea-9e3a-1c781c1ff17f.png)
 
 
-```
+```vue
 <template>
     <div>
         <div v-if="warningZone" class="text-4xl uppercase text-red-400">Are you still with us?</div>
